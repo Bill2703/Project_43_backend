@@ -11,6 +11,10 @@ flask-sqlalchemy = "*"
 psycopg2-binary = "*"
 requests = "*"
 flask-jwt-extended = "*"
+flask-login = "*"
+colorama = "*"
+scikit-learn = "*"
+pandas = "*"
 
 [dev-packages]
 pytest = "*"
@@ -23,3 +27,4 @@ python_version = "3.11"
 [scripts]
 test="ptw -- -v -rP"  
 coverage = "pytest --cov-report term-missing --cov=."
+dev="flask run"

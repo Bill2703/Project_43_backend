@@ -1,4 +1,4 @@
-# Book Application
+# Movie Application
 ## Setup
 
 - Clone the repository to your computer:
@@ -24,6 +24,7 @@ pipenv install flask flask-cors
 pipenv install python-dotenv 
 pipenv install flask-sqlalchemy psycopg2-binary
 pipenv install flask-jwt-extended
+pipenv install scikit-learn pandas
 ```
 - Create .env
 ```bash
